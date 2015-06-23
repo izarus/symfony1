@@ -11,7 +11,7 @@
 /**
  * The current symfony version.
  */
-define('SYMFONY_VERSION', '1.5.4-DEV');
+define('SYMFONY_VERSION', '1.5.5-DEV');
 
 /**
  * sfCoreAutoload class.
@@ -480,6 +480,7 @@ class sfCoreAutoload
     'sfvalidatorerror' => 'validator/sfValidatorError.class.php',
     'sfvalidatorerrorschema' => 'validator/sfValidatorErrorSchema.class.php',
     'sfvalidatorfile' => 'validator/sfValidatorFile.class.php',
+    'sfvalidatorfilemulti' => 'validator/sfValidatorFileMulti.class.php',
     'sfvalidatorfromdescription' => 'validator/sfValidatorFromDescription.class.php',
     'sfvalidatorinteger' => 'validator/sfValidatorInteger.class.php',
     'sfvalidatorip' => 'validator/sfValidatorIp.class.php',
@@ -517,6 +518,7 @@ class sfCoreAutoload
     'sfwidgetforminput' => 'widget/sfWidgetFormInput.class.php',
     'sfwidgetforminputcheckbox' => 'widget/sfWidgetFormInputCheckbox.class.php',
     'sfwidgetforminputfile' => 'widget/sfWidgetFormInputFile.class.php',
+    'sfwidgetforminputfilemulti' => 'widget/sfWidgetFormInputFileMulti.class.php',
     'sfwidgetforminputfileeditable' => 'widget/sfWidgetFormInputFileEditable.class.php',
     'sfwidgetforminputhidden' => 'widget/sfWidgetFormInputHidden.class.php',
     'sfwidgetforminputpassword' => 'widget/sfWidgetFormInputPassword.class.php',
