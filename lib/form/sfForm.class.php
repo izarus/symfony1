@@ -610,10 +610,10 @@ class sfForm implements ArrayAccess, Iterator, Countable
    */
   public function setValidator($name, sfValidatorBase $validator)
   {
-    if (isset($this->embeddedForms[$name]))
-    {
-      throw new LogicException('You cannot set a validator for an embedded form.');
-    }
+    // if (isset($this->embeddedForms[$name]))
+    // {
+    //   throw new LogicException('You cannot set a validator for an embedded form.');
+    // }
 
     $this->validatorSchema[$name] = $validator;
 
