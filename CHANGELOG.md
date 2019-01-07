@@ -1,6 +1,26 @@
 CHANGELOG
 =========
 
+17/03/2018: Version 1.5.11
+--------------------------
+
+* Fix a bug in the lime unit-testing lib #168
+* Fix error 'A non well formed numeric value' on sfValidatorFile #181
+* Fix usage of octet in recent patch #182
+* Allow PATCH as an option in functional tests #185
+* Fix case for isSubclassOf method #189
+* Remove typehint from exception handler #188
+* Fix counting of non-countable var for PHP 7.2 #178
+
+02/08/2017: Version 1.5.10
+--------------------------
+
+* Add support of Throwables #144
+* Fixed return type in PHPDoc #151
+* Fix `sfEventLogger`: add priority and event.name overriding #160
+* Don't try to autoload a trait if it's already been declared #162
+* Fix/php 7.2 deprecation warnings #163
+
 09/02/2017: Version 1.5.9
 -------------------------
 
